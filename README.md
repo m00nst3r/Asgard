@@ -1,8 +1,8 @@
 # Asgard
-Asgard is a list of application for getting data from different source and showing currency rate.
+Asgard is a list of services for getting data from different source and showing currency rate.
 
 ## Loki 
-status: ~development~
+status: development
 
 Loki is a service for getting data from different sources.
 
@@ -11,11 +11,18 @@ Loki is a service for getting data from different sources.
 Currently in development status for sources: **Privat 24** and  **European Central Bank**
 
 ## Odin
-status: ~planing~
+status: planing
 
-Odin is a service for calculate arithmetic average  of currency from datasources
+Odin is a service for calculating arithmetic average  of currency from datasources or provides date form every datasource separately 
 
 ## Thor
-status: ~planing~
+status: planing
 
-Thor is application for visualisation of currency rating
+Thor is application for visualization of currency rating
+
+### Tech stack 
+For backend node.js and mongodb 
+
+For frontend react or angular. 
+
+All components should run separately as micro services and runs in docker (first stage)
